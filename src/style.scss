@@ -1,0 +1,222 @@
+
+body{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  overflow: hidden;
+  height: 100vh;
+  div#root{
+    width: 100%;
+    background: #0F2027;
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  }
+
+  // main{
+  //   display: flex;
+  // }
+}
+#home{
+  background: #aa4b6b;
+  background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);
+}
+
+@font-face {
+  font-family: font1;
+  src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/PFSquareSansPro-Bold.otf');
+}
+
+// @font-face{
+//   font-family: font2;
+//   src: url(src/fonts/Madness_Hyperactive.ttf);
+// }
+
+
+
+.title{
+      font-family: 'Luckiest Guy';
+      color: white;
+      font-size: 85px;
+
+}
+
+.page{
+  //
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  // flex-direction:column;
+
+  div{
+    width: 300px;
+
+    &.voiceBtn{
+      display: flex;
+      flex-wrap: wrap;
+      color: white;
+      text-align: center;
+    }
+  }
+
+}
+.sidebar {
+  height: 655px;
+  overflow-y: scroll;
+  background-color: white;
+  color: black;
+  position: relative;
+  left: 0;
+  width: 200px;
+
+  .sidebar-item{
+    text-align: center;
+    height: 50px;
+    border: 1px solid white;
+    &:hover {
+      transform: scale(.95);
+    }
+  }
+  }
+
+.active {
+  background-color: grey;
+}
+
+main{
+     justify-content: center;
+     align-items: center;
+     position: absolute;
+}
+.logoa{
+  width: 800px;
+}
+
+.logob{
+  position: relative;
+  left: 500px;
+  width: 800px;
+}
+
+
+
+.button{
+  margin: 0 auto;
+  width: 100px;
+  height: 80px;
+  text-align: center;
+  display: inline-block;
+  background-color: #222;
+  // position: fixed;
+  // font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+  text-decoration: none;
+  user-select: none;
+  letter-spacing: 1px;
+  color: white;
+  // padding: 20px 40px;
+  text-transform: uppercase;
+  transition: background-color 0.1s ease-out;
+
+
+}
+
+
+.button:hover {
+  background-color: #2CD892; /* green */
+  color: white;
+}
+
+.buttons{
+  display: flex;
+  color: #ffffff;
+  margin-top: 250px;
+  margin-left: 530px;
+  text-align: center;
+  justify-content: center;
+  margin-top: 30px;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container{
+  justify-content: center;
+  align-items: flex-end;
+  margin: 0 auto;
+}
+
+.col{
+  width: 600px;
+  height: 400px;
+  justify-content: center;
+  align-items: flex-end;
+  align-content: center;
+  color: white;
+}
+
+.column-two{
+  justify-content: center;
+  align-content: center;
+  // width:500px;
+}
+
+.punchline{
+  color: #ffffff;
+  height: 50%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30 px;
+  width: 100%;
+  align-content: center;
+  position: absolute;
+  left: 290px;
+  bottom: 150px;
+}
+
+
+.navbar-item{
+display: inline-block;
+font-size: 40px;
+margin-right: 60px;
+font-family: 'Luckiest Guy', cursive;
+color: white;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 70px;
+}
+
+.voices {
+  font-size: 25px;
+  color: darken(white, 30%);
+  font-family: 'Luckiest Guy', cursive;
+  margin-left: 30px;
+  &:hover {
+    transform: scale(0.95);
+  }
+}
+
+.tweet-button {
+  display: inline-block;
+  width: 70px;
+  height: 60px;
+  background-image: url('http://platform.twitter.com/widgets/images/tweet.dfbf1dd98bad9f5b5addd80494650dca.png');
+  background-position: 0 0;
+}
+.tweet-button:hover {
+  background-position: 0 -21px;
+}
+
+.social{
+align-self: center;
+width: 100%;
+margin-top: 20px;
+}
+
+
+
+@keyframes rotate {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(-360deg);}
+}
