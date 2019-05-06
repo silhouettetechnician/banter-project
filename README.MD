@@ -1,6 +1,6 @@
 # WDI Group Project 2 (Hackathon - Dad Jokes)
 
-![ScreenShot](https://raw.github.com/{username}/{repository}/{branch}/{path} spaces app
+![Screenshot](SCREENSHOT1.png)
 
 In this pair coding Reactathon we are tasked to **build a react application** that consumes a **public API**.
 
@@ -8,6 +8,7 @@ During this project we worked in pairs to implement a fully functioning front en
 
 We decided upon the idea to produce a joke generator which would be able to speak or translate the said joke into many different languages and read it out loud
 
+![Screenshot](SCREENSHOT2.png)
 
 ## Getting started
 
@@ -60,8 +61,6 @@ Please make sure to update tests as appropriate.
 
 The reactathon dad jokes, was my first project using a Javascript libary and hardly any HTML. We were put into pairs where we brain stormed the best ideas, before the wireframming and planning stage. We came to the conclusion that the more external api's we pulled in, the more accessible our app would be.
 
-![ScreenShot](https://raw.github.com/{username}/{repository}/{branch}/{path} - show screenshot of back end code
-![ScreenShot](https://raw.github.com/{username}/{repository}/{branch}/{path}
 
 As this was going to be a fun, interactive app, we acknowledged that the styling would have to be second to none. We used animate css to ensure there would be animation to make the application more compelling to use.
 
